@@ -1,0 +1,51 @@
+body {
+    background-image: url('../static/images/mausam.png');
+    background-size: cover;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.logo {
+    color: #F2EEE7;
+    font-size: 28px;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+.nav-links a {
+    color: #F2EEE7;
+    text-decoration: none;
+    font-size: 20px;
+}
+body h1 {
+    text-align: center;
+    color: #f2eee7;
+    font-size: 100px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+   
+}
+body p{
+    text-align: center;
+    color: #f2eee7;
+    font-size: 40px;
+    margin-top: 10px;
+    
+}
+body button {
+    background-color: #426077;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #f2eee7;
+    padding: 10px 20px;
+}
+.button-container {
+    text-align: center;
+
+}

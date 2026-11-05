@@ -5,24 +5,34 @@
     }
     #app-title {
         font-size: 50px;
-        font-family: 'Limelight';
-        span{transition: color 0.3s ease;}
+        /*font-family: 'Limelight';*/
+        color: #F2EEE7;
     }
-    #app-title span:nth-child(1):hover{color:#f94144}
-    #app-title   span:nth-child(2):hover{color:#f8961e}
-    #app-title    span:nth-child(3):hover{color:#f9c74f}
-    #app-title    span:nth-child(4):hover{color:#90be6d}
-    #app-title    span:nth-child(5):hover{color:#43aa8b}
-    #app-title    span:nth-child(6):hover{color:#577590}
-    #app-title    span:nth-child(7):hover{color:#277da1}
-
-            
-        
-    
     #sunrise,#sunset,#humidity-title,#wind-speed-title,#weather-condition,#temp-feelslike,#today,#city,#datetime{
         font-family: 'Jura';
         font-weight: bold;
+        color: #F2EEE7;
     }
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.logo {
+    color: #F2EEE7;
+    font-size: 28px;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+.nav-links a {
+    color: #F2EEE7;
+    text-decoration: none;
+    font-size: 20px;
+}
     div.search {
         position: relative;
         width: 1060px;
@@ -34,10 +44,10 @@
     input#searchcity {
         color: white;
         width: 100%;
-        height: 60px;
-        border-radius: 50px;
+        height: 50px;
+        border-radius: 20px;
         border: none;
-        background: rgba(0, 0, 0, 0.2);
+        background: #426077;
         padding: 5px;
     }
     button.search-button {
@@ -48,15 +58,14 @@
         color: white;
         width: 100px;
         height: 40px;
-        border-radius: 50px;
         border: none;
-        background: rgba(0, 0, 0, 0.2);
-        border-radius: 50px;
+        background: #426077;
+        border-radius: 20px;
     }
    
     
     body {
-        background: linear-gradient(to bottom, #F8B195, #F67280, #C06C84,#6C5B7B,#355C7D);
+        background: #17354b;
     }
     body h1 {
         text-align: center;
@@ -71,14 +80,14 @@
         align-items: center;
         justify-content: space-between;
         color: white;
-        background: rgba(0,0,0,0.2);
+        background: #426077;
         margin-top: 50px;
         width: 1060px;
         margin-left: auto;
         margin-right: auto;
         text-align: left;
         padding: 30px;
-        border-radius: 50px;
+        border-radius: 20px;
         box-sizing: border-box;
     }
     #main-info {
@@ -102,7 +111,7 @@
     }
     div.div2 {
         color: white;
-        background: rgba(0,0,0,0.2);
+        background: #426077;
         width: 1060px;
         margin-top: 50px;
         margin-left: auto;
@@ -113,11 +122,11 @@
         height: 170px;
         justify-content: center;
         gap: 20px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     div.div3{
         color: white;
-        background: rgba(0,0,0,0.2);
+        background: #426077;
         width: 1060px;
         margin-top: 50px;
         margin-left: auto;
@@ -128,16 +137,16 @@
         height: 170px;
         justify-content: center;
         gap: 20px;
-        border-radius: 50px;
+        border-radius: 20px;
 
     }
     div.box1 {
-        background: rgba(0,0,0,0.2);
+background: #426077;
         width: 500px;
         text-align: center;
         border: none;
         margin-top: 17px;
-        border-radius: 50px;
+        border-radius: 20px;
         height: 80%;
     }
     div.box2 {
@@ -146,24 +155,24 @@
         width: 500px;
         height: 80%;
         border:none;
-        border-radius: 50px;
-        background: rgba(0,0,0,0.2);
+        border-radius: 20px;
+        background: #426077;
     }
     div.box3{
-        background: rgba(0,0,0,0.2);
+        background: #426077;
         width: 500px;
         text-align: center;
         border: none;
         margin-top: 17px;
-        border-radius: 50px;
+        border-radius: 20px;
         height: 80%;
  }
 div.box4{
-    background: rgba(0,0,0,0.2);
+    background: #426077;
         width: 500px;
         text-align: center;
         border: none;
         margin-top: 17px;
-        border-radius: 50px;
+        border-radius: 20px;
         height: 80%;
 }
