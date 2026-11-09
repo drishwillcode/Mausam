@@ -28,7 +28,7 @@
     "snow": 0.0,
     "thunderstorm": 0.0,
     "drizzle": 0.3,
-    "cloudy": 0.0,
+    "clouds": 0.0,
     "clear": 0.0,
     "temp": 0.24
   },

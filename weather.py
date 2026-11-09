@@ -11,6 +11,7 @@ class weatherdata:
     name: str
     temp: float
     feels_like: float
+    main: str
     description: str
     humidity: int
     wind_speed: float
@@ -38,6 +39,7 @@ def get_current_weather(lat,lon,api_key):
         name=resp.get('name'),
         temp=resp.get('main').get('temp'),
         feels_like=resp.get('main').get('feels_like'),
+        main=resp.get('weather')[0].get('main'),
         description=resp.get('weather')[0].get('description'),
         humidity=resp.get('main').get('humidity'),
         wind_speed=resp.get('wind').get('speed'),
