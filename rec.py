@@ -29,6 +29,8 @@ def get_temp_score(temp, weather_score):
     score = 1 / (1 + math.exp(-k * (temp - c)))
 
     weather_score["temp"] = score
+    return weather_score
+
 
 def get_weather_score(data):
     weather_score = get_main_score(data.main)
@@ -46,12 +48,14 @@ attributes = [
     "clear",
     "temp"
 ]
-def calculate_song_score(songs, weather_score):
+
+def calculate_song_score(song, weather_score):
     total=0
     for attr in attributes:
-        total+=weather_score[attr]*songs[attr]
+        total+=weather_score[attr]*song[attr]
     return total
-def get_reccomendation(songs, weather_score):
+
+def get_recommendations(songs, weather_score):
     scored_songs=[]
     for song in songs:
         score=calculate_song_score(song, weather_score)
